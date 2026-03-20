@@ -1,0 +1,33 @@
+{
+  "name": "@aiagentkarl/mcp-hub-server",
+  "version": "0.1.0",
+  "description": "MCP Hub Server — discover, search and install 49+ MCP servers. An app store for the AI agent ecosystem.",
+  "type": "module",
+  "bin": {
+    "mcp-hub-server": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ai-agents",
+    "hub",
+    "app-store",
+    "server-catalog",
+    "discovery",
+    "ai",
+    "llm"
+  ],
+  "author": "AiAgentKarl",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AiAgentKarl/mcp-hub-server-js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
